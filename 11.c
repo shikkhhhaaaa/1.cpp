@@ -2,7 +2,7 @@
 int main()
 {
     int n;
-    int count = 0;
+    int counter = 0;
 
     printf("Enter an integer: ");
     scanf("%d", &n);
@@ -11,8 +11,8 @@ int main()
     {
         
         n /= 10;
-        ++count;
+        ++counter;
     }
 
-    printf("Number of digits: %d", count);
+    printf("Number of digits: %d", counter);
 }
