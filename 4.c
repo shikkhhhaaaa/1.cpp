@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int ch;
+	char ch;
 	printf("enter the character");
 	scanf("%c",&ch);
 	if(ch>0&&ch<0&&ch==0)
